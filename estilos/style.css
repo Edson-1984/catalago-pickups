@@ -54,6 +54,17 @@ section .list{
     position: relative;
   
 }
+section .list::before {
+    content:'';
+    position: absolute;
+    height: 200px;
+    width: 80vw;
+    top: 48.5%;
+    right: 15%;
+    border-top: 1px solid white;
+}
+
+
 section .item{
     position: absolute;
     inset: 0;
@@ -61,8 +72,8 @@ section .item{
 .item .pick-up{
     width: 90%;
     position: absolute;
-    top: 70%;
-    right: 30%;
+    top: 55%;
+    right: 55%;
     transform: translateY(-50%);
 }
 section img{
@@ -72,13 +83,15 @@ section img{
 
 section .conteudo{
     position: absolute;
-    right: 100px;
+    right: 120px;
     width: 70%;
+    top: 10%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: flex-end;
+    gap: 20px;
 }
 
 section .informacao{
@@ -90,10 +103,12 @@ section h2{
     line-height: 1em;
 }
 section .descricao{
+    text-indent: 40px;
     color: aliceblue;
     font-size: 15px;
     text-align: right;
-    max-width: 400px;
+    text-align: justify;
+    max-width: 500px;
 }
 
 section .botao{
@@ -109,7 +124,7 @@ section .botao{
 }
 
 section .seta{
-    width: 70vw;
+    width: 83vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -139,9 +154,9 @@ section .seta button:hover{
 
 section .indicadores{
     position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%);
     height: 200px;
     width: 90vw;
     display: flex;
