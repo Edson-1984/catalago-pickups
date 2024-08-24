@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de pick ups</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
 </head>
@@ -19,12 +25,12 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="container">
         <div class="list">
             
-            <div class="item">
+            <div class="item ativo">
                 <div class="pick-up">
-                    <img src="./img/1949-ford-f1-pickup.png" alt="carro-1">
+                    <img src="./img/1949-ford-f1-pickup.png" alt="carro-1" class="foto">
                 </div>
                 <div class="conteudo">
                     <p class="informacao">
@@ -43,12 +49,57 @@
                 </div>
             </div>
 
+            <div class="item">
+                <div class="pick-up">
+                    <img src="./img/1952-chevrolet-3100-pickup.png" alt="carro-1" class="foto">
+                </div>
+                <div class="conteudo">
+                    <p class="informacao">
+                        Chevrolet 3100 de 1952
+                    </p>
+                    <h2>
+                        Chevrolet
+                    </h2>
+                    <p class="descricao">
+                        A Chevrolet 3100 de 1952 é um modelo clássico da década de 1950, representando uma evolução significativa das picapes da linha "Advance-Design". Com um design robusto e elegante, a versão de 1952 possui uma frente refinada com grade cromada e pára-lamas arredondados, além de um capô longo que confere um visual imponente. A cabine foi aprimorada para maior conforto e o interior apresenta acabamentos melhorados. Equipado com o motor "Stovebolt Six" de 3,9 litros, que gera cerca de 105 cavalos de potência, e uma transmissão manual de 3 marchas, com opções de 4 marchas e automática, a 3100 oferece melhor desempenho e versatilidade. A caçamba continua ampla e funcional, ideal para cargas pesadas. Altamente valorizada por colecionadores e entusiastas, a 3100 de 1952 é apreciada por seu design atemporal e robustez, consolidando a posição da Chevrolet como líder no mercado de caminhonetes.
+
+
+                    </p>
+                    <button class="botao    ">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="pick-up">
+                    <img src="./img/1954-gmc-5-window-pickup .png" alt="carro-1" class="foto">
+                </div>
+                <div class="conteudo">
+                    <p class="informacao">
+                        GMC Pickup Window de 1954
+                    </p>
+                    <h2>
+                        GMC 
+                    </h2>
+                    <p class="descricao">
+                        A GMC Pickup de 1954, também conhecida como GMC "Suburban", marca a transição entre as linhas "Advance-Design" e a nova série "Task Force". Com um design robusto da década de 1950, apresenta uma grande grade vertical e faróis integrados aos pára-lamas. A cabine foi aprimorada para maior conforto e espaço, enquanto a caçamba continua ampla para cargas pesadas. Disponível com motores de seis cilindros em linha de 3,7 litros (105-115 cv) e opções V8 de 3,9 litros, oferece boa durabilidade e desempenho. O interior tem um painel moderno e assentos mais confortáveis, com transmissão manual de 3 marchas e opções de 4 marchas e automática. A GMC Pickup de 1954 é valorizada por colecionadores por sua robustez e papel na evolução das picapes da GMC.
+
+
+
+                    </p>
+                    <button class="botao    ">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
 
         </div>
 
         <div class="seta">
-            <button><img src="./img/arrow-right-circle-fill.svg" alt="seta direia"></button>
-            <button><img src="./img/arrow-left-circle-fill.svg" alt="seta esquerda"></button>
+            <button id="anterior"><img src="./img/arrow-left-circle-fill.svg" alt="seta direia"></button>
+            <button id="proximo"><img src="./img/arrow-right-circle-fill.svg" alt="seta esquerda"></button>
         </div>
 
         <div class="indicadores">
@@ -61,5 +112,6 @@
             </ul>
         </div>
     </section>
+    <script src="./scripts.js"></script>
 </body>
 </html>
