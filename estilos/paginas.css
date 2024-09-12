@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #5D5381;
+}
+header{
+    width: 100%;
+    height: 200px;
+       
+}
+.head{
+    display: grid;
+    width: 100%;
+}
+ .logo{
+   font-size: 100px;
+   color:white;
+   text-align: left;
+   margin: auto;
+   
+}
+
+.head .titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.container{
+    width: 100%;
+    
+}
+
+.container .giro img{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    -webkit-user-drag: none;
+    
+}
+
+
