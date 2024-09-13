@@ -33,12 +33,12 @@ header{
     
     
 }
-.container{
+.conteiner{
     width: 100%;
     
 }
 
-.container .giro img{
+.conteiner .giro img{
     width: 50%;
     display: flex;
     margin: auto;
