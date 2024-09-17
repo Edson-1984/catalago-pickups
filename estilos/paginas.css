@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: #5D5381;
+    background-color:#13213C;
 }
 header{
     width: 100%;
@@ -20,7 +20,7 @@ header{
 }
  .logo{
    font-size: 100px;
-   color:white;
+   color:#FCA313;
    text-align: left;
    margin: auto;
    
@@ -43,7 +43,13 @@ header{
     display: flex;
     margin: auto;
     -webkit-user-drag: none;
+  
     
 }
+.car-img{
+   transition: ease-in;
+}
+
+
 
 
