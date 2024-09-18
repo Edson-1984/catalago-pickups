@@ -284,22 +284,3 @@ section .ativo .pick-up img{
     transform: rotate(0);
     
 }
-
-@media screen and (max-width: 400px){
-   body{
-        width: auto;
-        display: grid;
-   }    
-     
-   header .titulo{
-        width: 40%;
-        position: relative;
-        right: 500px;
-        top: 100px;
-        
-       
-   }
-
-   .container{
-    top: 400px;
-}
