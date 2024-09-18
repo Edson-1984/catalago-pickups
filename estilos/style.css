@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
     color: #FCA313;
     font-size: 16px;
     overflow: hidden;
@@ -19,7 +19,7 @@ body{
 /* CABEÇALHO*/
 
 header{
-    position: fixed;
+    position: absolute;
     width: 95vw;
     left: 50%;
     transform: translateX(-50%);
@@ -30,13 +30,24 @@ header{
     z-index: 2;
 
 }
-header img{
-    width: 150px;
+header .titulo{
+    text-align: center;
 }
 
-header nav ul{
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
+.titulo h1{
+    position: relative;
+    left: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 6em;
+    text-shadow: 1px 5px 2px #0c1525;
+}
+
+.titulo p{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 500px;
+    text-shadow: 1px 5px 2px #0c1525;
 
 }
 
@@ -71,6 +82,7 @@ section .list::before {
 section .item{
     position: absolute;
     inset: 0;
+    margin-top: 50px;
 }
 .item .pick-up{
     width: 80%;
@@ -139,16 +151,27 @@ section .botao{
     height: 35px;
     width: 120px;
     text-transform: uppercase;
-    border: 2px solid #6d04cf;
-    background-color: #33ff00;
-    color: black;
+    border: 2px solid white;
+    background-color: #FCA313;
+    color: white;
     cursor: pointer;
     font-weight: bold;
     position: relative;
-    top: 60px;
-    
+    top: 40px;
+   
+ 
     
   
+}
+
+section .botao a{
+    text-decoration: none;
+}
+
+section .botao:hover{
+    background-color: #ffa600;
+    transform: scale(1.2);
+    transition: 0.2s;
 }
 
 section .seta{
@@ -260,4 +283,23 @@ section .ativo .pick-up img{
     transform: rotate(-20deg);
     transform: rotate(0);
     
+}
+
+@media screen and (max-width: 400px){
+   body{
+        width: auto;
+        display: grid;
+   }    
+     
+   header .titulo{
+        width: 40%;
+        position: relative;
+        right: 500px;
+        top: 100px;
+        
+       
+   }
+
+   .container{
+    top: 400px;
 }
