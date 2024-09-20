@@ -121,6 +121,8 @@ section .informacao{
     font-weight: bold;
     position: relative;
     bottom: 20px;
+    text-shadow: 1px 2px 2px black;
+    top: 15%;
    
 }
 
@@ -130,6 +132,9 @@ section h2{
     font-family: 'League+Gothic', sans-serif;
     position: relative;
     bottom: 20px;
+    text-shadow: 1px 4px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: 10%;
 
 }
 section .descricao{
@@ -141,7 +146,7 @@ section .descricao{
     max-width: 580px;
     line-height: 0.8cm;
     font-family: 'League+Gothic', sans-serif;
-    padding-top: 30px;
+    
     
     
     
@@ -287,12 +292,13 @@ section .ativo .pick-up img{
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 962px) {
     /* Ajuste o corpo do site */
     body {
         font-size: 14px;
         overflow-x: hidden;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* Cabeçalho */
@@ -333,7 +339,7 @@ section .ativo .pick-up img{
 
     .item .pick-up {
         width: 100%;
-        top: 30%;
+        top: 40%;
         display: flex;
         left: 1%;
         
@@ -348,21 +354,22 @@ section .ativo .pick-up img{
     section .conteudo {
         right: 0;
         width: 100%;
-        top: 20%;
+        top: 40%;
         margin-bottom: 0;
         align-items: center;
         text-align: center;
     }
 
-    section .informacao {
+    section .conteudo .informacao {
         font-size: 1em;
-        bottom: 10px;
+        bottom: 10%;
     }
 
     section h2 {
         font-size: 3em;
         line-height: 1.2em;
         bottom: 0;
+        bottom: 18%;
     }
 
     section .descricao {
@@ -380,10 +387,12 @@ section .ativo .pick-up img{
     /* Setas de navegação */
     section .seta {
         width: 90vw;
+        top: 61%;
     }
 
     section .seta img {
-        width: 20px;
+        width: 35px;
+        
     }
 
     section .indicadores {
