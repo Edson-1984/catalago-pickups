@@ -298,7 +298,7 @@ section .ativo .pick-up img{
         font-size: 14px;
         overflow-x: hidden;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     /* Cabeçalho */
