@@ -8,6 +8,8 @@
     font-family:'poppins', sans-serif   ;
 }
 
+
+
 body{
     background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
     color: #FCA313;
@@ -284,3 +286,119 @@ section .ativo .pick-up img{
     transform: rotate(0);
     
 }
+
+@media (max-width: 768px) {
+    /* Ajuste o corpo do site */
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    /* Cabeçalho */
+    header {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    header .titulo h1 {
+        font-size: 5em;
+        left: 0;
+        text-align: center;
+    }
+
+    header .titulo p {
+        font-size: 1em;
+        left: 0;
+        text-align: center;
+    }
+
+    /* Seção Principal */
+    section {
+        height: auto;
+    }
+
+    section .list {
+        width: 90vw;
+        left: 5%;
+    }
+
+    section .list::before {
+        top: 60%;
+        width: 90vw;
+        right: 5%;
+    }
+
+    section .item {
+        margin-top: 20px;
+    }
+
+    .item .pick-up {
+        width: 100%;
+        top: 60%;
+        right: 50%;
+        transform: translateY(-50%);
+    }
+
+    section img.foto {
+        width: 100%;
+    }
+
+    /* Conteúdo da seção */
+    section .conteudo {
+        right: 0;
+        width: 100%;
+        top: 10%;
+        margin-bottom: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    section .informacao {
+        font-size: 1.5em;
+        bottom: 10px;
+    }
+
+    section h2 {
+        font-size: 3em;
+        line-height: 1.2em;
+        bottom: 0;
+    }
+
+    section .descricao {
+        font-size: 14px;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    section .botao {
+        top: 20px;
+        width: 100px;
+    }
+
+    /* Setas de navegação */
+    section .seta {
+        width: 90vw;
+    }
+
+    section .seta img {
+        width: 20px;
+    }
+
+    section .indicadores {
+        top: 80%;
+        width: 100vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    section .indicadores ul li {
+        width: 30px;
+        height: 4px;
+    }
+
+    /* Reduzir os espaçamentos e tamanhos */
+    .numero {
+        font-size: 3em;
+    }
+}
+
