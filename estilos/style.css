@@ -292,7 +292,7 @@ section .ativo .pick-up img{
     
 }
 
-@media (max-width: 962px) {
+@media (max-width: 450px) {
     /* Ajuste o corpo do site */
     body {
         font-size: 14px;
