@@ -299,7 +299,7 @@ section .ativo .pick-up img{
         overflow-x: hidden;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: scroll;
+       
     }
 
     /* Cabeçalho */
@@ -352,6 +352,12 @@ section .ativo .pick-up img{
     }
 
     /* Conteúdo da seção */
+    section{
+        background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
+        height: 100vh;
+        position: relative  ;
+    
+    }
     section .conteudo {
         right: 0;
         width: 100%;
@@ -360,6 +366,7 @@ section .ativo .pick-up img{
         align-items: center;
         text-align: center;
     }
+   
 
     section .conteudo .informacao {
         font-size: 1em;
