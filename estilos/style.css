@@ -301,7 +301,7 @@ section .ativo .pick-up img{
     }
 
     header .titulo h1 {
-        font-size: 5em;
+        font-size: 3em;
         left: 0;
         text-align: center;
     }
@@ -313,9 +313,7 @@ section .ativo .pick-up img{
     }
 
     /* Seção Principal */
-    section {
-        height: auto;
-    }
+    
 
     section .list {
         width: 90vw;
@@ -334,9 +332,11 @@ section .ativo .pick-up img{
 
     .item .pick-up {
         width: 100%;
-        top: 60%;
-        right: 50%;
-        transform: translateY(-50%);
+        top: 30%;
+        display: flex;
+        left: 1%;
+        
+        
     }
 
     section img.foto {
@@ -347,14 +347,14 @@ section .ativo .pick-up img{
     section .conteudo {
         right: 0;
         width: 100%;
-        top: 10%;
+        top: 20%;
         margin-bottom: 0;
         align-items: center;
         text-align: center;
     }
 
     section .informacao {
-        font-size: 1.5em;
+        font-size: 1em;
         bottom: 10px;
     }
 
@@ -366,8 +366,9 @@ section .ativo .pick-up img{
 
     section .descricao {
         font-size: 14px;
-        max-width: 100%;
+        max-width: 95%;
         padding-top: 20px;
+        
     }
 
     section .botao {
