@@ -326,9 +326,7 @@ section .ativo .pick-up img{
 
     /* Seção Principal */
    
-    section {
-        overflow: auto;
-    }
+   
     section .list {
         width: 90vw;
         left: 5%;
@@ -363,7 +361,8 @@ section .ativo .pick-up img{
     section{
         background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
         height: 100vh;
-        position: relative  ;
+        position: relative ;
+        overflow: auto;
     
     }
     section .conteudo {
