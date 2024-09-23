@@ -296,13 +296,15 @@ section .ativo .pick-up img{
 
 @media (max-width: 450px) {
     /* Ajuste o corpo do site */
-    body {
+    body{
         font-size: 14px;
-        overflow: auto;
         height: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
        
+    }
+    .container{
+        overflow: auto;
     }
 
 
@@ -318,6 +320,7 @@ section .ativo .pick-up img{
         font-size: 5em;
         left: 0;
         text-align: center;
+        
     }
 
     header .titulo p {
@@ -327,7 +330,7 @@ section .ativo .pick-up img{
     }
 
     /* Seção Principal */
-    
+   
 
     section .list {
         width: 90vw;
@@ -394,7 +397,7 @@ section .ativo .pick-up img{
     }
 
     section .botao {
-        top: 20px;
+        top: 15%;
         width: 100px;
     }
 
@@ -410,7 +413,7 @@ section .ativo .pick-up img{
     }
 
     section .indicadores {
-        top: 110%;
+        top: 120%;
         width: 100vw;
         left: 50%;
         transform: translate(-50%, -50%);
