@@ -308,6 +308,7 @@ section .ativo .pick-up img{
     .container{
         height: 100vh;
     }
+    
     header {
         grid-template-columns: 1fr;
         gap: 10px;
