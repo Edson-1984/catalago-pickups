@@ -369,16 +369,15 @@ section .ativo .pick-up img{
     }
    
 
-    section .conteudo .informacao {
+    section .informacao{
         font-size: 1em;
-        bottom: 10%;
+        top: 2%;
     }
 
     section h2 {
         font-size: 3em;
         line-height: 1.2em;
-        bottom: 0;
-        bottom: 18%;
+        bottom: 19%;
     }
 
     section .descricao {
