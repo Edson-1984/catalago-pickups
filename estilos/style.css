@@ -305,6 +305,9 @@ section .ativo .pick-up img{
     }
 
     /* Cabeçalho */
+    .container{
+        height: 100vh;
+    }
     header {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -373,7 +376,7 @@ section .ativo .pick-up img{
     section .informacao{
         font-size: 1em;
         top: 2%;
-        overflow: visible;
+        
     }
 
     section h2 {
