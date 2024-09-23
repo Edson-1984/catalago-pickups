@@ -58,7 +58,8 @@ header .titulo{
 section{
     background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
     height: 100vh;
-    position: relative  ;
+    position: relative;
+    overflow: hidden;
 
 } 
 section .list{
