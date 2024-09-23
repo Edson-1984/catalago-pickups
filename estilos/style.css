@@ -298,7 +298,7 @@ section .ativo .pick-up img{
     /* Ajuste o corpo do site */
     body {
         font-size: 14px;
-        overflow-x: auto;
+        overflow: auto;
         height: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
@@ -315,7 +315,7 @@ section .ativo .pick-up img{
     }
 
     header .titulo h1 {
-        font-size: 3em;
+        font-size: 5em;
         left: 0;
         text-align: center;
     }
@@ -327,9 +327,7 @@ section .ativo .pick-up img{
     }
 
     /* Seção Principal */
-    section{
-        overflow: auto;
-    }
+    
 
     section .list {
         width: 90vw;
@@ -412,15 +410,17 @@ section .ativo .pick-up img{
     }
 
     section .indicadores {
-        top: 80%;
+        top: 110%;
         width: 100vw;
         left: 50%;
         transform: translate(-50%, -50%);
+        
     }
 
     section .indicadores ul li {
         width: 30px;
         height: 4px;
+        
     }
 
     /* Reduzir os espaçamentos e tamanhos */
