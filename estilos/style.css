@@ -298,17 +298,17 @@ section .ativo .pick-up img{
     /* Ajuste o corpo do site */
     body {
         font-size: 14px;
-        overflow-x: hidden;
+        overflow-x: auto;
+        height: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
        
     }
 
+
     /* Cabeçalho */
-    .container{
-        height: 100vh;
-    }
     
+
     header {
         grid-template-columns: 1fr;
         gap: 10px;
