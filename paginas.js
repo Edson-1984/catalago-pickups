@@ -27,6 +27,7 @@ const updateImage = (direction) => {
     }
 
     image.src = `./img/anexos/${currentImage}.png`;
+    image.src = `./img/anexos-2/${currentImage}.png`;
 };
 
 giro.addEventListener("mousedown", (event) => {
