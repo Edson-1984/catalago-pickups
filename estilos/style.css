@@ -373,6 +373,7 @@ section .ativo .pick-up img{
     section .informacao{
         font-size: 1em;
         top: 2%;
+        overflow: visible;
     }
 
     section h2 {
