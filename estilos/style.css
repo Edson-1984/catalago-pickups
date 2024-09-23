@@ -327,7 +327,9 @@ section .ativo .pick-up img{
     }
 
     /* Seção Principal */
-    
+    section{
+        overflow: auto;
+    }
 
     section .list {
         width: 90vw;
