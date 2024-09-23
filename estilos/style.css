@@ -273,10 +273,7 @@ section .conteudo, .informacao, h2, .descricao, .botao{
     transition-delay: 0.7s;
     
 }
-.conteudo .botao{
-    transition-delay: 0.9s;
-    
-}
+
 .list .ativo{
     transform: translateX(0);
     transition: 0.5s;
@@ -303,9 +300,7 @@ section .ativo .pick-up img{
         background-size: cover;
        
     }
-    .container{
-        overflow: auto;
-    }
+  
 
 
     /* Cabeçalho */
@@ -331,10 +326,13 @@ section .ativo .pick-up img{
 
     /* Seção Principal */
    
-
+    section {
+        overflow: auto;
+    }
     section .list {
         width: 90vw;
         left: 5%;
+       
     }
 
     section .list::before {
@@ -345,6 +343,7 @@ section .ativo .pick-up img{
 
     section .item {
         margin-top: 20px;
+        
     }
 
     .item .pick-up {
@@ -393,6 +392,8 @@ section .ativo .pick-up img{
         font-size: 14px;
         max-width: 95%;
         padding-top: 20px;
+        padding: 5px;
+        
         
     }
 
@@ -413,7 +414,7 @@ section .ativo .pick-up img{
     }
 
     section .indicadores {
-        top: 120%;
+        top: 105%;
         width: 100vw;
         left: 50%;
         transform: translate(-50%, -50%);
