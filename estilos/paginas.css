@@ -7,49 +7,83 @@
 
 }
 body{
-    background-color:#13213C;
+    background-image: linear-gradient(to bottom, #4f638b, #4D6189 );
+    color: aliceblue;
+    height: 100vh;
 }
+/*cabeçalho*/
 header{
-    width: 100%;
-    height: 200px;
-       
-}
-.head{
+    position: absolute;
+    width: 95vw;
+    left: 50%;
+    transform: translateX(-50%);
     display: grid;
-    width: 100%;
-}
- .logo{
-   font-size: 100px;
-   color:#FCA313;
-   text-align: left;
-   margin: auto;
-   
-}
+    align-items: center;
+    grid-template-columns: 1fr 600px;
+    gap: 50px;
+    z-index: 2;
+    border-bottom: 2px solid #fca4028c;
 
-.head .titulo{
-    color: white;
+}
+header .titulo{
     text-align: center;
-    font-size: 50px;
-    
-    
-}
-.conteiner{
-    width: 100%;
-    
 }
 
-.conteiner .giro img{
-    width: 50%;
+.titulo h1{
+    position: relative;
+    color: #fca402;
+    left: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 6em;
+    text-shadow: 1px 5px 2px #0c1525;
+}
+
+.titulo p{
+    position: relative;
+    color: #fca402;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 500px;
+    text-shadow: 1px 5px 2px #0c1525;
+
+}
+/*meio do site*/
+
+.conteiner{
+    background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+}
+.giro  img{
     display: flex;
     margin: auto;
-    -webkit-user-drag: none;
-  
+    width: 40%;
+    bottom: 20%;
     
 }
-.car-img{
-   transition: ease-in;
+
+.giro p{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #fca402;
+    text-shadow: 1px 5px 2px #0c1525;
+}
+.conteudo .historia{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 20px;
+    background-color: #f4f5f76c;
+    border-style: solid;
+    border-color: #fca402;
+    border-radius: 10px;
 }
 
-
-
-
+.historia img{
+    width: 30%;
+}
