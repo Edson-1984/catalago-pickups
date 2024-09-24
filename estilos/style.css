@@ -330,6 +330,7 @@ section .ativo .pick-up img{
     section .list {
         width: 90vw;
         left: 5%;
+        overflow: auto;
        
     }
 
