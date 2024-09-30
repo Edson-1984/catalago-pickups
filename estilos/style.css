@@ -11,7 +11,7 @@
 
 
 body{
-    background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
+    background-color: #0E4A6C;
     color: #FCA313;
     font-size: 16px;
     overflow: auto;
@@ -21,9 +21,11 @@ body{
 }
 /* CABEÇALHO*/
 
+
 header{
     position: absolute;
-    width: 95vw;
+    width: 100vw;
+    height: 20%;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
@@ -31,33 +33,43 @@ header{
     grid-template-columns: 1fr 600px;
     gap: 50px;
     z-index: 2;
-
+    background-image: url(/img/1969-chevrolet-c10-long-bed-pickup.jpg);
+    width: 100vw;
+    overflow: hidden;
+    background-position: center top 500px;
+  
 }
 header .titulo{
     text-align: center;
+    
 }
 
 .titulo h1{
     position: relative;
+    text-align: center;
     left: 300px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
     font-size: 6em;
-    text-shadow: 1px 5px 2px #0c1525;
+    text-shadow: 2px 5px 3px #0c1525;
+    color: #FCA313;
 }
 
 .titulo p{
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    left: 500px;
-    text-shadow: 1px 5px 2px #0c1525;
+    left: 600px;
+    font-weight: bolder;
+    text-shadow: 1px 7px 2px #0c1525;
+    color:#FCA313;
 
 }
+
 
 /* MEIO DO SITE*/
 
 section{
-    background-image: linear-gradient(to bottom, #4f638b, #0c1525 );
+    background-color: 0E4A6C;
     height: 100vh;
     position: relative;
     overflow: hidden;
